@@ -54,3 +54,6 @@ http://localhost:8082/swagger-ui/index.html
   "message": "Books fetched successfully",
   "data": []
 }
+## API Preview
+
+![Swagger UI](swagger.png)
