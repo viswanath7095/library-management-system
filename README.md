@@ -22,3 +22,35 @@ A Spring Boot backend project with:
 
 ## API Docs (Swagger)
 http://localhost:8082/swagger-ui/index.html
+
+## Features
+
+- Add, update, delete books
+- Search books by title
+- Filter books by author and status
+- Pagination support
+- DTO-based API design
+- Validation using annotations
+- Global exception handling
+- Standard API response wrapper
+
+## API Endpoints
+
+| Method | Endpoint        | Description         |
+|--------|---------------|---------------------|
+| GET    | /books        | Get all books       |
+| POST   | /books        | Add book            |
+| PUT    | /books/{id}   | Update book         |
+| PATCH  | /books/{id}   | Update status       |
+| DELETE | /books/{id}   | Delete book         |
+| GET    | /books/search | Search books        |
+| GET    | /books/filter | Filter books        |
+
+## Example Response
+
+```json
+{
+  "success": true,
+  "message": "Books fetched successfully",
+  "data": []
+}
